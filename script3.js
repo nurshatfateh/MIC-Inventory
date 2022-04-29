@@ -13,6 +13,6 @@ function check() {
     document.getElementById("id").value = "";
     document.getElementById("pass").value = "";
     flag = true;
-    location.href = "index.html";
+    location.href = "home.html";
   }
 }
