@@ -1,3 +1,4 @@
+
 body, html {
   height: 100%;
 }
@@ -6,9 +7,7 @@ body, html {
 .hero-image {
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/wall.jpg");
 height: 100%;
-width: 100%
-;
-
+width: 100%;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -22,4 +21,33 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+}
+
+
+/* .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+} */
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
 }
