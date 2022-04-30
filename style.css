@@ -1,42 +1,46 @@
-
-body, html {
+body,
+html {
   height: 100%;
 }
 
-.ho{
+.ho {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/wall.jpg");
   height: 100%;
 }
-.or{
+
+.or {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/1.jpg");
   height: 60%;
 }
-.ab{
+
+.ab {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/3.jpg");
   height: 60%;
 
 }
-.co{
+
+.co {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/4.jpg");
   height: 60%;
 
 }
+
 .hero-image {
 
-width: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .hero-text {
-text-align: center;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 
@@ -51,20 +55,22 @@ background: #eee;
 height: calc(100% - 73px);
 } */
 @media (max-width: 450px) {
-.h-custom {
-height: 100%;
-}
+  .h-custom {
+    height: 100%;
+  }
 }
 
 
 body {
- 
-  
+
+
   flex-direction: column;
 }
+
 .content {
   flex: 1;
 }
+
 .center {
   display: block;
   margin-left: auto;
