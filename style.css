@@ -3,10 +3,16 @@ body, html {
   height: 100%;
 }
 
-
+.ho{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/wall.jpg");
+  height: 100%;
+}
+.or{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/1.jpg");
+  height: 60%;
+}
 .hero-image {
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/wall.jpg");
-height: 100%;
+
 width: 100%;
 background-position: center;
 background-repeat: no-repeat;
